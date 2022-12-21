@@ -12,8 +12,14 @@ public class Team {
 
     public void  removeBuilders(Builder builder){builders.remove(builder);}
     public void build(){
-        for(Builder builder : builders){
+        if (builders.size()!=0){
+            for(Builder builder : builders){
             builder.builds();
+            }
+        }else {
+            System.out.println("\n---------------------");
+            System.out.println("Team is empty!");
+            System.out.println("---------------------\n");
         }
     }
 }

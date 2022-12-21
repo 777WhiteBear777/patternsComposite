@@ -17,8 +17,10 @@ public class App {
 
         team.build();
 
-//        team.removeBuilders(firstWorker);
-//        team.removeBuilders(secondWorker);
-//        team.removeBuilders(engineer);
+        team.removeBuilders(firstWorker);
+        team.removeBuilders(secondWorker);
+        team.removeBuilders(engineer);
+
+        team.build();
     }
 }
