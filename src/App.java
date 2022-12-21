@@ -16,5 +16,9 @@ public class App {
         team.addBuilders(engineer);
 
         team.build();
+
+//        team.removeBuilders(firstWorker);
+//        team.removeBuilders(secondWorker);
+//        team.removeBuilders(engineer);
     }
 }
